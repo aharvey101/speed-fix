@@ -1,0 +1,14 @@
+{
+  "name": "speedfixco",
+  "version": "1.0.0",
+  "description": "speed fix website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.13.4"
+  }
+}
