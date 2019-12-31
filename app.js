@@ -32,6 +32,6 @@ app.get('/contact', (req, res) => {
 
 
 
-app.listen(process.env.PORT || 3000, process.env.IP, () => {
+app.listen(process.env.PORT, process.env.IP, () => {
     console.log('website started')
 })
