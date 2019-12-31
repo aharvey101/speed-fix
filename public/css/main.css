@@ -1,24 +1,184 @@
-body {
-background:rgb(24, 26, 27);
-color: aliceblue;
+
+* {
+    padding: 0%;
+    margin: 0%;
 }
+
+body {
+        background: rgb(54,110,182);
+    background: -moz-linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
+    background: linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
+    color: white;
+}
+
 
 .navbar {
     position: sticky;
+    padding: 0;
+    background-color: orange;
 }
 
-.landing-header {
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    padding-top: 40vh;
-    }
+#navbar {
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
 
-.landing-header h1{
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px ;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: black;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.fa-bars {
     color: #ffffff;
+    font-size: 30px;
 }
-.splashImage { 
-    position: fixed;
-    background-image: url(https://images.unsplash.com/photo-1556912167-f556f1f39fdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1520&q=80);
 
+/* Banner Section */
+
+
+.splashTitle {
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 100px;
+}
+
+.homeImage {
+    padding-top: 50px;
+}
+
+/* aboutUs Section */
+
+
+#aboutUs {
+    padding: 80px;
+}
+
+#aboutUs i {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.services {
+    padding: 20px;
+
+}
+
+.title::After {
+    content:'';
+    background: orange;
+    height: 5PX;
+    width: 200px;
+    margin: auto auto auto auto;
+    display: block;
+}
+
+#aboutUs .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+/* Services */
+
+#services {
+padding-top: 50px ;
+padding-bottom: 50px;
+}
+
+.services-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.services-image {
+    margin-top: 16%;
+}
+
+/* Contracts */
+
+#contracts {
+    margin: 50px 0;
+}
+
+/* Social Media */
+#social-media {
+    padding:100px 0; 
+    align-content: center;
+    display: block;
+    width: 100%;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#social-media i {
+    font-size:40px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#social-media i:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer section */
+
+#footer {
+    padding: 25px;
+    background-color: orange;
+    color: white;
+}
+
+.footer-logo {
+    height: 100px;
+}
+
+.footer-box .fa {
+    margin-right:8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    
+}
+
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-color: blue;
 }
