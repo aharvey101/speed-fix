@@ -10,7 +10,7 @@ const express = require('express'),
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
-app.use(express.static('/css'));
+app.use(express.static('/'));
 app.use(methodOverride('_method'));
 
 
@@ -32,6 +32,6 @@ app.get('/contact', (req, res) => {
 
 
 
-app.listen(process.env.PORT, process.env.IP, () => {
+app.listen(process.env.PORT || 3000, process.env.IP, () => {
     console.log('website started')
 })

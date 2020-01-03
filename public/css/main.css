@@ -14,6 +14,7 @@ body {
     background: -webkit-linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
     background: linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -39,10 +40,11 @@ body {
 }
 
 .navbar-nav li a {
-    color: black;
+    color: #ffffff;
     font-weight: 600;
     float: right;
     text-align: left;
+    text-shadow: 1px solid black;
 }
 
 .navbar-toggler {
@@ -163,10 +165,10 @@ padding-bottom: 50px;
 .footer-box .fa {
     margin-right:8px;
     font-size: 25px;
-    height: 40px;
+    height: 10px;
     width: 40px;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 1px;
     border-radius: 2px;
     
 }
