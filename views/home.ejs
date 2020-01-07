@@ -14,38 +14,37 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/"><img src="/images/logo-new.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle Navigation</span>
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#top">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutUs">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contracts">CONTRACTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#social-media">SOCIAL MEDIA</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </head>
 
 <body>
-    <section id="navbar">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="/home"><img src="/images/logo-new.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutUs">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contracts">CONTRACTS</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-    </section>
-
     <!-- Banner Section -->
-
     <section id="banner">
         <div class="container">
             <div class="row">
@@ -75,32 +74,31 @@
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <i class="fa fa-shower"></i>
-                    <h4>Speed Fix Home Maintinence Services</h4>
-                    <p>Provide you with a trusted source for all your maintenance
-                        requirements. We help you keep your home in top shape,
-                        preserving the value of your investment.
+                    <i class="fa fa-hand-peace-o"></i>
+                    <h4>Peace of Mind</h4>
+                    <p>Speed Fix helps you feel at ease knowing that you have a
+                        maintenance company you can depend on.
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <i class="fa fa-shower"></i>
-                    <h4>Speed Fix Home Maintinence Services</h4>
-                    <p>Provide you with a trusted source for all your maintenance
-                        requirements. We help you keep your home in top shape,
-                        preserving the value of your investment.
+                    <i class="fa fa-clock-o"></i>
+                    <h4>Prompt Service</h4>
+                    <p>Once you call our office or our 24-hour emergency number, our
+                        technicians will respond promptly to handle the job.
                     </p>
                 </div>
                 <div class="col-md-3">
-                    <i class="fa fa-shower"></i>
-                    <h4>Speed Fix Home Maintinence Services</h4>
-                    <p>Provide you with a trusted source for all your maintenance
-                        requirements. We help you keep your home in top shape,
-                        preserving the value of your investment.
+                    <i class="fa fa-fighter-jet"></i>
+                    <h4>Efficient Work</h4>
+                    <p>Our technicians are well-trained and highly- competent to fulfill
+                        your maintenance needs in a proficient and
+                        organized manner.
                     </p>
                 </div>
             </div>
             <div class="text-center">
-                <button type="button" class="btn btn-primary">All Services</button>
+                <button type="button" onclick="window.location.hash = '#services'" class="btn btn-primary">All
+                    Services</button>
             </div>
         </div>
     </section>
@@ -180,9 +178,147 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <img src="" alt="">
+                    <table class="table table-bordered table-sm">
+                        <thread>
+                            <tr>
+                                <td>Service Description</td>
+                                <td>Frequency</td>
+                                <td>Standard Package</td>
+                                <td>Silver Package</td>
+                                <td>Gold Package</td>
+                            </tr>
+                        </thread>
+
+                        <tr>
+                            <td>24hrs Help Desk</td>
+                            <td>24.70</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Service of AC Units</td>
+                            <td>Quarterly</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Service of Electrical Fittings</td>
+                            <td>Quarterly</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Sertice of Plubming</td>
+                            <td>Quarterly</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Sertice of Water Pumps and Motors</td>
+                            <td>Quarterly</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Repair of AC Units</td>
+                            <td>24.70</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Repaid of Electrical Fittings</td>
+                            <td>24.70</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Repair of Plumbing Defects</td>
+                            <td>24.70</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Repair of Water Pumps and Mptors</td>
+                            <td>24.70</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Repair of Fixed Wood Works, UPVC & SS Fittings</td>
+                            <td>Schedule</td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Repair of External Doors & Windows</td>
+                            <td>Schedule</td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Minor Masonry & Touchup Paint Work</td>
+                            <td>Schedule</td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Water Tank Cleaning (up to max capacity of 1000Lt)</td>
+                            <td>Annually</td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Kitchen Deep Cleaning</td>
+                            <td>Annually</td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Paved Yard Cleaning</td>
+                            <td>Annually</td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Cleaning of Drainage Chambers</td>
+                            <td>Quarterly</td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Cleaning of External Lights, Fans, Hoods</td>
+                            <td>Quarterly</td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Cleaning / Unlocking of Roof Drains</td>
+                            <td>Annually</td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
+        </div>
         </div>
     </services>
 
@@ -212,16 +348,14 @@
             <div class="row">
                 <div class="col-md-4 footer-box">
                     <img class="footer-logo" src="/images/logo-new.png" alt="">
-                    <p>Provide you with a trusted source for all your maintenance requirements. We help you keep
-                        your
-                        home in top shape, preserving the value of your investment.</p>
+                    <p>AT YOUR SERVICE! - 24/7 EMERGENCY SERVICE AND SUPPORT</p>
                 </div>
                 <div class="col-md-4 footer-box">
                     <p><b>Contact Us</b></p>
                     <p> <i class="fa fa-map-marker"></i> P.O.Box 60951 Dubai, UAE </p>
                     <p><i class="fa fa-phone"></i> 04 458 6665 </p>
                     <p><i class="fa fa-mobile"></i> 052 6999 036 </p>
-                    <p><i class="fa fa-envelope"></i> zxy@gmail.com</p>
+                    <p><i class="fa fa-envelope"></i> info@speedfix.co</p>
                 </div>
                 <div class="col-md-4 footer-box">
                     <p><b>SUBSCRIBE TO OUR NEWSLETTER</b></p>
@@ -231,17 +365,27 @@
             </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+
+        $('.navbar-nav .nav-link').on('click', function () {
+            var toggle = $('.navbar-toggler').is(':visible');
+            if (toggle) {
+
+                $('.navbar-collapse').collapse('hide');
+
+            }
+        });
+
+    </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="node_modules/scroll-js/dist/scroll.js"></script>
-
 </body>
 
 
