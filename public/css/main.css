@@ -3,10 +3,10 @@
     padding: 0%;
     margin: 0%;
 }
-/* 
+
 html {
     scroll-behavior: smooth;
-} */
+}
 
 body {
         background: rgb(54,110,182);
@@ -16,7 +16,6 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-
 
 .navbar {
     position: sticky;
@@ -56,6 +55,10 @@ body {
 
 #banner {
     padding-bottom: 125px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .splashTitle {
@@ -65,15 +68,17 @@ body {
 }
 
 .homeImage {
+    text-align: center;
     padding-top: 50px;
 }
 
 /* aboutUs Section */
 
+
 #aboutUs:before {
     display: block;
-    height: 1000px;   /* equal to the header height */
-    margin-top: -1000px;  /* negative margin equal to the header height */
+    height:100px;   /* equal to the header height */
+    margin-top: 100px;  /* negative margin equal to the header height */
     visibility: hidden;
     content: "";
 }
@@ -113,8 +118,8 @@ body {
 
 #services:before {
     display: block;
-    height: 200px;   /* equal to the header height */
-    margin-top: -200px;  /* negative margin equal to the header height */
+    height: 100px;   /* equal to the header height */
+    margin-top: 100px;  /* negative margin equal to the header height */
     visibility: hidden;
     content: "";
 }
@@ -141,8 +146,7 @@ padding-bottom: 50px;
 
 #contracts:before {
     display: block;
-    height: 50px;   /* equal to the header height */
-    margin-top: -50px;  /* negative margin equal to the header height */
+    height: 125px;   /* equal to the header height */
     visibility: hidden;
     content: "";
 }
@@ -151,12 +155,18 @@ padding-bottom: 50px;
     color: #ffffff;
 }
 
+/* Table */
+
+#contracts td {
+    font-size: 0.7em;
+}
+
 /* Social Media */
 
 #social-media:before {
     display: block;
-    height: 200px;   /* equal to the header height */
-    margin-top: -200px;  /* negative margin equal to the header height */
+    height: 100px;   /* equal to the header height */
+    margin-top: 100px;  /* negative margin equal to the header height */
     visibility: hidden;
     content: "";
 }

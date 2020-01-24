@@ -18,17 +18,6 @@ app.get('/', (req, res) => {
     res.render('home')
 });
 
-app.get('/services', (req, res) => {
-    res.render('services')
-});
-app.get('/contracts', (req, res) => {
-    res.render('contracts')
-});
-app.get('/contact', (req, res) => {
-    res.render('contact')
-});
-
-
 
 
 app.listen(process.env.PORT || 3000, process.env.IP, () => {
