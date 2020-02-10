@@ -4,10 +4,6 @@
     margin: 0%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
         background: rgb(54,110,182);
     background: -moz-linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
@@ -53,40 +49,32 @@ body {
 
 /* Banner Section */
 
+
+
 #banner {
-    padding-bottom: 125px;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-self: center;
+    grid-gap: 1em 1em;
+    justify-items: center;
 }
 
 .splashTitle {
     font-size: 40px;
     font-weight: 600px;
     margin-top: 100px;
+    padding-left: 10px;
 }
 
-.homeImage {
-    text-align: center;
-    padding-top: 50px;
+.mascotImage {
+    font: 100px;
 }
-
 /* aboutUs Section */
 
-
-#aboutUs:before {
-    display: block;
-    height:100px;   /* equal to the header height */
-    margin-top: 100px;  /* negative margin equal to the header height */
-    visibility: hidden;
-    content: "";
+#aboutUs{
+    padding-top: 50px;
 }
-
-#aboutUs {
-    padding: 80px;
-}
-
 #aboutUs i {
     margin-top: 20px;
     font-size: 30px;
@@ -116,16 +104,10 @@ body {
 
 /* Services */
 
-#services:before {
-    display: block;
-    height: 100px;   /* equal to the header height */
-    margin-top: 100px;  /* negative margin equal to the header height */
-    visibility: hidden;
-    content: "";
-}
+
+
 #services {
 padding-top: 50px ;
-padding-bottom: 50px;
 }
 
 .services-title {
@@ -141,14 +123,7 @@ padding-bottom: 50px;
 /* Contracts */
 
 #contracts {
-    margin: 50px 0;    
-}
-
-#contracts:before {
-    display: block;
-    height: 125px;   /* equal to the header height */
-    visibility: hidden;
-    content: "";
+    padding-top: 50px;
 }
 
 .table  {
@@ -163,13 +138,6 @@ padding-bottom: 50px;
 
 /* Social Media */
 
-#social-media:before {
-    display: block;
-    height: 100px;   /* equal to the header height */
-    margin-top: 100px;  /* negative margin equal to the header height */
-    visibility: hidden;
-    content: "";
-}
 #social-media {
     padding:100px 0; 
     align-content: center;
