@@ -1,14 +1,13 @@
-
 * {
     padding: 0%;
     margin: 0%;
 }
 
 body {
-        background: rgb(54,110,182);
-    background: -moz-linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
-    background: linear-gradient(180deg, rgba(54,110,182,1) 0%, rgba(41,46,109,1) 100%);
+    background: rgb(54, 110, 182);
+    background: -moz-linear-gradient(180deg, rgba(54, 110, 182, 1) 0%, rgba(41, 46, 109, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(54, 110, 182, 1) 0%, rgba(41, 46, 109, 1) 100%);
+    background: linear-gradient(180deg, rgba(54, 110, 182, 1) 0%, rgba(41, 46, 109, 1) 100%);
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -21,10 +20,9 @@ body {
     z-index: 10;
 }
 
-
 .navbar-brand img {
     height: 40px;
-    padding-left: 20px ;
+    padding-left: 20px;
 }
 
 .navbar li {
@@ -47,17 +45,27 @@ body {
     font-size: 30px;
 }
 
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.nav-pad {
+    margin: -100px;
+    padding: 100px;
+    display: inline-block;
+}
+
 /* Banner Section */
 
-
-
 #banner {
-    height: 100vh;
-    display: grid;
+    min-height: 100vh;
+    display: flex;
     grid-template-columns: 50% 50%;
-    align-self: center;
+    align-items: center;
     grid-gap: 1em 1em;
-    justify-items: center;
+    justify-content: space-between;
 }
 
 .splashTitle {
@@ -70,11 +78,13 @@ body {
 .mascotImage {
     font: 100px;
 }
+
 /* aboutUs Section */
 
-#aboutUs{
-    padding-top: 50px;
+#aboutUs {
+    padding-top: 3rem;
 }
+
 #aboutUs i {
     margin-top: 20px;
     font-size: 30px;
@@ -82,15 +92,14 @@ body {
 
 .services {
     padding: 20px;
-
 }
 
 .title::After {
-    content:'';
+    content: '';
     background: orange;
     height: 5PX;
     width: 200px;
-    margin: auto auto auto auto;
+    margin: auto;
     display: block;
 }
 
@@ -104,10 +113,8 @@ body {
 
 /* Services */
 
-
-
 #services {
-padding-top: 50px ;
+    padding-top: 50px;
 }
 
 .services-title {
@@ -126,7 +133,7 @@ padding-top: 50px ;
     padding-top: 50px;
 }
 
-.table  {
+.table {
     color: #ffffff;
 }
 
@@ -139,7 +146,7 @@ padding-top: 50px ;
 /* Social Media */
 
 #social-media {
-    padding:100px 0; 
+    padding: 100px 0;
     align-content: center;
     display: block;
     width: 100%;
@@ -152,7 +159,7 @@ padding-top: 50px ;
 }
 
 #social-media i {
-    font-size:40px;
+    font-size: 40px;
     padding: 10px;
     transition: 0.5s;
 }
@@ -174,17 +181,16 @@ padding-top: 50px ;
 }
 
 .footer-box .fa {
-    margin-right:8px;
+    margin-right: 8px;
     font-size: 25px;
     height: 10px;
     width: 40px;
     text-align: center;
     padding-top: 1px;
     border-radius: 2px;
-    
 }
 
-.footer-box .form-control{
+.footer-box .form-control {
     box-shadow: none;
     border: none;
     border-radius: 0;
