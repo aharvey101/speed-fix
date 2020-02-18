@@ -14,33 +14,19 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="/"><img src="/images/logo-new.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle Navigation</span>
+
+    <div class="topnav" id="myTopnav">
+        <!--         <a class="navbar-brand" href="/"><img src="/images/logo-new.png" alt=""></a>
+ --> <a href="/" class="active">Home</a>
+        <a href="#aboutUs">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contracts">CONTRACTS</a>
+        <a href="#social-media">SOCIAL MEDIA</a>
+        <a href="javascript:void(0);" class="icon" onclick="bars()">
             <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#top">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#aboutUs">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contracts">CONTRACTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#social-media">SOCIAL MEDIA</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        </a>
+    </div>
+
 </head>
 
 <body>
@@ -161,7 +147,7 @@
         </section>
         <!-- Contracts -->
 
-        <services id="contracts">
+        <services id="contracts" class="nav-pad">
             <div class="container">
                 <h1 class="title text-center">
                     Contracts
@@ -370,26 +356,14 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script>
-        function menuClose() {
-            $('.navbar-nav .nav-link').on('click', function () {
-                var toggle = $('.navbar-toggler').is(':visible');
-                if (toggle) {
-                    $('.navbar-collapse').collapse('hide');
-                }
-            });
+        function bars() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
-
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-        document.querySelectorAll('a').forEach(a => {
-            menuClose();
-        })
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
