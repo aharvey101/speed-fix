@@ -1,7 +1,6 @@
 * {
     padding: 0%;
     margin: 0%;
-    font: 1rem;
 }
 
 body, html {
@@ -80,8 +79,8 @@ main {
 }
 
 .nav-pad {
-    margin: -55px;
-    padding: 55px;
+    margin-top: -55px;
+    padding-top: 55px;
     display: inline-block;
 }
 
@@ -111,6 +110,7 @@ main {
 
 #aboutUs {
     padding-top: 3rem;
+    display: flex;
 }
 
 #aboutUs i {
@@ -141,6 +141,11 @@ main {
 .text-center {
     padding-bottom: 1rem;
 }
+/* 
+.slideshow{
+    border: 1px solid red;
+    width: 100%;
+} */
 
 /* Services */
 
@@ -209,6 +214,7 @@ main {
     padding: 25px;
     background-color: orange;
     color: #000000;
+    width: 100%;
 }
 
 .footer-logo {
