@@ -1,16 +1,14 @@
 const express = require('express'),
     bodyParser = require('body-parser'),
-    router = express.Router(),
-    async = require('async'),
     methodOverride = require('method-override'),
 
-    app = express(),
+    app = express();
 
 
 
 
 
-    app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 app.use(methodOverride('_method'));

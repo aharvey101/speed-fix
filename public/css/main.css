@@ -3,13 +3,14 @@
     margin: 0%;
 }
 
-body {
+body, html {
     background: rgb(54, 110, 182);
     background: -moz-linear-gradient(180deg, rgba(54, 110, 182, 1) 0%, rgba(41, 46, 109, 1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(54, 110, 182, 1) 0%, rgba(41, 46, 109, 1) 100%);
     background: linear-gradient(180deg, rgba(54, 110, 182, 1) 0%, rgba(41, 46, 109, 1) 100%);
     color: white;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .topnav {
