@@ -1,6 +1,7 @@
 * {
     padding: 0%;
     margin: 0%;
+    font: 1rem;
 }
 
 body, html {
@@ -79,8 +80,8 @@ main {
 }
 
 .nav-pad {
-    margin: -50px;
-    padding: 50px;
+    margin: -55px;
+    padding: 55px;
     display: inline-block;
 }
 
@@ -132,16 +133,19 @@ main {
 
 #aboutUs .btn-primary {
     box-shadow: none;
-    padding: 8px 25px;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.8rem;
     background-color: orange;
+}
+
+.text-center {
+    padding-bottom: 1rem;
 }
 
 /* Services */
 
 #services {
-    padding-top: 50px;
+    padding-top: 6rem;
 }
 
 .services-title {
@@ -177,7 +181,7 @@ main {
 /* Social Media */
 
 #social-media {
-    padding: 50px 0;
+    padding: 0px;
     align-content: center;
     display: block;
     width: 100%;

@@ -18,10 +18,10 @@
     <div class="topnav" id="myTopnav">
         <!--         <a class="navbar-brand" href="/"><img src="/images/logo-new.png" alt=""></a>
  --> <a href="/" class="active">Home</a>
-        <a href="#aboutUs">ABOUT</a>
-        <a href="#services">SERVICES</a>
-        <a href="#contracts">CONTRACTS</a>
-        <a href="#social-media">SOCIAL MEDIA</a>
+        <a href="#aboutUs" onclick="bars()">ABOUT</a>
+        <a href="#services" onclick="bars()">SERVICES</a>
+        <a href="#contracts" onclick="bars()">CONTRACTS</a>
+        <a href="#social-media" onclick="bars()">SOCIAL MEDIA</a>
         <a href="javascript:void(0);" class="icon" onclick="bars()">
             <i class="fa fa-bars"></i>
         </a>
@@ -91,7 +91,7 @@
 
 
         <!-- Services -->
-        <section id="services">
+        <section id="services" class="nav-pad">
             <div class="container">
                 <h1 class="title text-center">
                     What We Do
@@ -364,6 +364,7 @@
                 x.className = "topnav";
             }
         }
+
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
