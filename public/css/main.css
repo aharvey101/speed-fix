@@ -21,6 +21,11 @@ body, html {
     z-index: 10;
 }
 
+.logo img {
+    width: auto;
+    height: 2rem;
+}
+
 .topnav a {
     float: left;
     display: block;
@@ -29,12 +34,11 @@ body, html {
     margin-top: 5px;
     padding: 10px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: #ffffff;
 }
 
 .topnav .icon {
@@ -78,11 +82,6 @@ main {
     padding: 0 40px;
 }
 
-.nav-pad {
-    margin-top: -55px;
-    padding-top: 55px;
-    display: inline-block;
-}
 
 /* Banner Section */
 
@@ -109,7 +108,7 @@ main {
 /* aboutUs Section */
 
 #aboutUs {
-    padding-top: 3rem;
+    padding-top: 6rem;
     display: flex;
 }
 
@@ -125,7 +124,7 @@ main {
 .title::After {
     content: '';
     background: orange;
-    height: 5PX;
+    height: 5px;
     width: 200px;
     margin: auto;
     display: block;
@@ -165,12 +164,9 @@ main {
 
 /* Contracts */
 
-#contracts {
-    padding-top: 50px;
+.contracts {
+    padding-top: 100px
 }
-
-
-
 .table {
     color: #ffffff;
 }
@@ -182,6 +178,10 @@ main {
 }
 
 /* Social Media */
+
+.fa {
+    color: white;
+}
 
 #social-media {
     padding: 0px;
