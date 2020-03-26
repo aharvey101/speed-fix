@@ -3,6 +3,11 @@
     margin: 0%;
 }
 
+:root {
+    --bs:  0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
 body, html {
     background: rgb(54, 110, 182);
     background: -moz-linear-gradient(180deg, rgba(54, 110, 182, 1) 0%, rgba(41, 46, 109, 1) 100%);
@@ -140,11 +145,11 @@ main {
 .text-center {
     padding-bottom: 1rem;
 }
-/* 
-.slideshow{
-    border: 1px solid red;
-    width: 100%;
-} */
+
+.carousel {
+    box-shadow:  0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
 
 /* Services */
 
@@ -160,6 +165,8 @@ main {
 
 .services-image {
     margin-top: 16%;
+    box-shadow:  0.25em 0.25em 0.75em rgba(0,0,0,.25),
+    0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
 /* Contracts */
@@ -217,6 +224,8 @@ main {
 
 .footer-logo {
     height: 100px;
+    margin-left: 25%;
+    margin-bottom: 1rem;
 }
 
 .footer-box .fa {
