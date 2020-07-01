@@ -237,6 +237,11 @@ main {
     text-align: center;
     padding-top: 1px;
     border-radius: 2px;
+    color: black;
+}
+
+.footer-box__p{
+    color: #000000;
 }
 
 .footer-box .form-control {
