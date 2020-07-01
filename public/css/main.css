@@ -6,6 +6,7 @@
 :root {
     --bs:  0.25em 0.25em 0.75em rgba(0,0,0,.25),
     0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    --blueish:#2352de
 }
 
 body, html {
@@ -34,7 +35,7 @@ body, html {
 .topnav a {
     float: left;
     display: block;
-    color: #2342f1;
+    color: var(--blueish);
     text-align: center;
     margin-top: 5px;
     padding: 10px 10px;
@@ -224,7 +225,7 @@ main {
 
 .footer-logo {
     height: 100px;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-bottom: 1rem;
 }
 
